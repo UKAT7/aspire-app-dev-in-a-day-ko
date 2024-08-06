@@ -19,7 +19,7 @@ permissions:
   contents: read
 
 jobs:
-  build:
+    build:
     runs-on: ubuntu-latest
     env:
       AZURE_CLIENT_ID: ${{ vars.AZURE_CLIENT_ID }}
