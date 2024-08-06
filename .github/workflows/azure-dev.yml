@@ -52,8 +52,8 @@ jobs:
       popd
 
 
-  - name: Install azd
-    uses: Azure/setup-azd@v1.0.0
+    - name: Install azd
+      uses: Azure/setup-azd@v1.0.0
 
       - name: Log in with Azure (Federated Credentials)
         if: ${{ env.AZURE_CLIENT_ID != '' }}
